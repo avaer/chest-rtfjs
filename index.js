@@ -1,6 +1,4 @@
-import ReactDOM from 'react-dom'
-import React, { useRef, useState } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import {React, Fragment, useState, useRef, Canvas, useFrame, useThree} from 'react-all';
 import {Box} from "./box.js"
 
 const render = () => {
