@@ -1,4 +1,4 @@
-import {React, Fragment, useState, useRef, Canvas, useFrame, useThree} from 'react-all';
+import {React, Fragment} from 'react-all';
 import {Box} from "./box.js"
 
 const render = () => {
