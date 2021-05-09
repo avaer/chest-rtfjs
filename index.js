@@ -1,4 +1,5 @@
-import {React, Fragment, Suspense} from 'react';
+import React from 'react';
+import {Fragment, Suspense} from 'react';
 import {GLTFLoader} from 'three';
 import {useLoader} from '@react-three/fiber';
 import {Box} from "./box.js"
