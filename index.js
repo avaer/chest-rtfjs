@@ -2,7 +2,7 @@ import {React, Fragment, Suspense, GLTFLoader, useLoader} from 'react-all';
 import {Box} from "./box.js"
 
 const Chest = () => (
-  <Gltf src="http://127.0.0.1:10000/chest-rtfjs/chest.glb"/>
+  <Gltf src="https://avaer.github.io/chest-rtfjs/chest.glb"/>
 );
 function Gltf({src}) {
   const gltf = useLoader(GLTFLoader, src);
