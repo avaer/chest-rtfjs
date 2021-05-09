@@ -1,7 +1,5 @@
-import React from 'react';
-import {Fragment, Suspense} from 'react';
+import {React, Fragment, Suspense, useLoader} from 'react';
 import {GLTFLoader} from 'three';
-import {useLoader} from '@react-three/fiber';
 import {Box} from "./box.js"
 
 const Chest = () => (
