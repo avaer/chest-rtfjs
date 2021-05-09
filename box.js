@@ -1,4 +1,5 @@
-import {React, useState, useRef} from 'react';
+import React from 'react';
+import {useState, useRef} from 'react';
 import {useFrame} from '@react-three/fiber';
 
 export function Box(props) {
