@@ -1,6 +1,5 @@
 {
   "name": "chest",
-  "description": "Chest XRPackage",
-  "xr_type": "webxr-site@0.0.1",
+  "description": "Chest NFT",
   "start_url": "index.js"
 }
